@@ -1,4 +1,5 @@
 # Employeemanagerapp
+Application for viewing available vacancies. Written in practice on spring boot / angular frameworks.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
