@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" style="color:white;"> Employee Manager</a>
+  <a class="navbar-brand" style="color:white;"> Лист вакансий</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02 "
           aria-controls="navbarColor02">
     <span class="navbar-toggler-icon"> </span>
@@ -7,12 +7,12 @@
   <div class="collapse navbar-collapse" id="navbarColor02">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" (click)="onOpenModal(null, 'add')"> Add Employee <span class="sr-only ">(current)</span></a>
+        <a class="nav-link" (click)="onOpenModal(null, 'add')"> Добавить <span class="sr-only ">(current)</span></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input  type="search" (ngModelChange)="searchEmployees(key.value)" #key="ngModel" ngModel
-              name="key" id="searchName" class="form-control mr-sm-2" placeholder="Search employees ...">
+              name="key" id="searchName" class="form-control mr-sm-2" placeholder="Поиск по вакансиям ...">
     </form>
   </div>
 </nav>
